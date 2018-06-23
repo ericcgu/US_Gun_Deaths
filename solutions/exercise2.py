@@ -7,7 +7,6 @@ Display the first 5 rows of data to verify that you removed the header row prope
 
 import csv
 import pprint
-
 pp = pprint.PrettyPrinter(width=150) 
 
 def readcsv(filename):
