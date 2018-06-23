@@ -18,5 +18,5 @@ def readcsv(filename):
         data = list(csv.reader(infile))
         return data
 
-pp.pprint(readcsv('data/guns.csv')[:6])
+pp.pprint(readcsv('data/guns.csv')[:5])
 
